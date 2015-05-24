@@ -1,0 +1,22 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GIF Viewer
+Comment=Displays animated GIF images
+Comment[pl]=Podgląd ruchomych obrazków GIF
+Type=Service
+Icon=view-preview
+
+X-Plasma-API=python
+X-Plasma-MainScript=code/GIF_Viewer.py
+
+X-KDE-ServiceTypes=Plasma/Applet
+X-KDE-PluginInfo-Name=GIF_Viewer
+X-KDE-PluginInfo-Author=Zaps166
+X-KDE-PluginInfo-Email=spaz16@wp.pl
+X-KDE-PluginInfo-Version=0.4
+X-KDE-PluginInfo-Website=https://github.com/zaps166/GIF_Viewer
+X-KDE-PluginInfo-License=LGPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-Category=Graphics
+
+X-Plasma-DropMimeTypes=image/gif
